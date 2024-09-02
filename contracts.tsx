@@ -1,5 +1,5 @@
 export const opContractAddress = "0xe53410eBdd922C0410B645E6bA5FEBe865Ab84d2"
-export const galadrielContractAddress = "0xDfe612Af21b521892eD849a8586DbE9CeF756382"
+export const galadrielContractAddress = "0x284794C546Ca7e7B7E157e1b5fA6e5fC643F1009"
 
 export const ContractABI = [
 	{
