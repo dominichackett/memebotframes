@@ -28,7 +28,7 @@ const handleRequest = frames(async (ctx) => {
     ),
     buttons: [
      
-      <Button action="tx" target={{ query: {symbol:symbol,name:name,description:description,network:network,image:image },pathname:"/trans"}} post_url="/trans-success">
+      <Button action="tx" target={{ query: {symbol:symbol,name:name,description:name,network:network,image:image },pathname:"/trans"}} post_url="/trans-success">
         Launch Token
     </Button>,
     ],

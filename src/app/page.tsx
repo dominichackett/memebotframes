@@ -1,4 +1,10 @@
-import { fetchMetadata } from "frames.js/next";
+import { fetchMetadata,
+} from "frames.js/next";
+import Head from "next/head";
+
+import {
+  metadataToMetaTags,
+} from "frames.js/next/pages-router/client";
  
 export async function generateMetadata() {
   return {
@@ -16,5 +22,9 @@ export async function generateMetadata() {
 }
  
 export default function Page() {
-  return <span>My existing page</span>;
-}
+  return<> <Head>
+  <title>Meme Coin Launcher</title>
+</Head>
+<span>My existing page</span>;
+
+</> }
