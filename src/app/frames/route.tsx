@@ -21,7 +21,7 @@ const handleRequest = frames(async (ctx) => {
             <span tw="text-bold">{symbol} {name} </span>
         </div>
         <p>Network: {(parseInt(network) == 1 ?"Optimism":"Galadriel")}</p>
-        <p tw=" text-gray-500 break-all">{description}</p>
+       
         
       </div>
     
